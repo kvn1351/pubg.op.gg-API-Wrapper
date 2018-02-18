@@ -41,6 +41,15 @@ api.getProfileByID('59fdabfb33bd730001661ad2', SEASON.RE2018sea1, REGION.EU, MAT
   .catch((err) => {
   	console.error(err);
   });
+
+api.getProfileByNickname('kvn1351', SEASON.RE2018sea1, REGION.EU, MATCH.SQUAD.size, MATCH.SQUAD.name)
+  .then((profile) => {
+    const data = profile.getStats();
+    console.log(data);
+  })
+  .catch((err) => {
+  	console.error(err);
+  });
 ```
 
 The methods currently available are:
