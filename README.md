@@ -18,7 +18,7 @@ npm install -S pubg-op-gg
 
 ## Usage
 
-The API for PUBG.OP.GG doesn't require any API key. However you'll need to provide the user id (Steam ID).
+The API for PUBG.OP.GG doesn't require any API key. ~~However you'll need to provide the user id (Steam ID).~~
 The results are very limited, as the origin does not provide a lot of stats, as there is no documentation, everything provided in this wrapper is what I do know so far.
 
 ```javascript
